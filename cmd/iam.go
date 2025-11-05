@@ -7,5 +7,6 @@ func RunIAM() error {
 	if err != nil {
 		return err
 	}
+
 	return application.Run()
 }
